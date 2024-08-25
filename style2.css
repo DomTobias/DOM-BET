@@ -1,0 +1,457 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+body, html {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.barra {
+    background-color: #260b86; 
+    padding: 3px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+}
+.logo{
+    cursor: pointer;
+    margin-left: 2%;
+}
+.logo:hover{
+    transform:scale(1.2)
+}
+.imagem,.imagem2,.imagem3 {
+    max-width: 100%;
+    height: auto; 
+}
+.imagem-cr7 {
+    position: absolute; 
+    top: 83%; 
+    left: 50%; 
+    height: auto; 
+    transform: translate(-35%, -35%); 
+    max-width: 90%;
+}
+h1{
+    position: absolute;
+    font-size: 90px;
+    color: #260b86;
+    text-shadow: 
+        2px 2px 0 #fff, 
+       -2px -2px 0 #fff, 
+        2px -2px 0 #fff, 
+       -2px  2px 0 #fff, 
+        2px  2px 0 #fff,
+       -2px -2px 0 #fff;
+       font-family: "Oswald", sans-serif;
+}
+p{
+    position: absolute;
+    font-size: 40px;
+    color: white;
+    margin-top: 15%;
+    margin-left: 10px;
+    margin-right: 500px;
+
+}
+
+.imagemcor{
+    position: absolute; 
+    top: 25%; 
+    left: 18%; 
+    height: auto; 
+    transform: translate(-50%, -50%); 
+    max-width: 80%;
+    width: 450px;
+    height: 198px;
+    margin-top: 1300px;
+    cursor: pointer;
+    }
+    .imagemvas{
+    position: absolute; 
+    top: 68%; 
+    left: 21%; 
+    height: auto; 
+    transform: translate(-50%, -50%); 
+    max-width: 80%;
+    width: 500px;
+    height: 250px;
+    margin-top: 1350px;
+    cursor: pointer;
+    }
+    .imagematl{
+    position: absolute; 
+    top: 25%; 
+    left: 51%; 
+    height: auto; 
+    transform: translate(-50%, -50%); 
+    max-width: 80%;
+    width: 400px;
+    height: 210px;
+    margin-top: 1300px;
+    cursor: pointer;
+    }
+    .imagemint{
+    position: absolute; 
+    top: 70%; 
+    left: 51%; 
+    height: auto; 
+    transform: translate(-50%, -50%); 
+    max-width: 80%;
+    width: 420px;
+    height: 220px;
+    margin-top: 1350px;
+    cursor: pointer;
+    }
+    .imagemcui{
+    position: absolute; 
+    top: 27%; 
+    left: 82%; 
+    height: auto; 
+    transform: translate(-50%, -50%); 
+    max-width: 80%;
+    width: 400px;
+    height: 220px;
+    margin-top: 1300px;
+    cursor: pointer;
+    }
+    .imagempal{
+    position: absolute; 
+    top: 72%; 
+    left: 83%; 
+    height: auto; 
+    transform: translate(-50%, -50%); 
+    max-width: 80%;
+    width: 420px;
+    height: 280px;
+    margin-top: 1350px;
+    cursor: pointer;
+    }
+
+    .button:hover{
+    background-color: #1f1663;
+    transform:(-50%-50%);
+    }
+    .button1{
+    margin: 20px 10px;
+    height: 80px;
+    left: 2%;
+    position: absolute;
+    height: auto;
+    margin-top: 320px;
+    padding: 5PX 30PX;
+    max-width: 80%;
+    background-color: #3d2499;
+    color: white;
+    transform: translate(-50%, -50%); 
+    font-size: 40px;
+    cursor: pointer;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-left: 100px;
+  }
+  .button2{
+    margin: 20px 10px;
+    height: 80px;
+    left: 12%;
+    position: absolute;
+    height: auto;
+    margin-top: 320px;
+    padding: 5PX 30PX;
+    max-width: 80%;
+    background-color: #3d2499;
+    color: white;
+    transform: translate(-50%, -50%); 
+    font-size: 40px;
+    cursor: pointer;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-left: 100px
+  }
+    .button3{
+    margin: 20px 10px;
+    height: 80px;
+    left: 22%;
+    position: absolute;
+    height: auto;
+    margin-top: 320px;
+    padding: 5PX 30PX;
+    max-width: 80%;
+    background-color: #3d2499;
+    color: white;
+    transform: translate(-50%, -50%); 
+    font-size: 40px;
+    cursor: pointer;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-left: 100px
+    }
+    .button4{
+    margin: 20px 10px;
+    height: 80px;
+    left: 35%;
+    position: absolute;
+    height: auto;
+    margin-top: 320px;
+    padding: 5PX 30PX;
+    max-width: 80%;
+    background-color: #3d2499;
+    color: white;
+    transform: translate(-50%, -50%); 
+    font-size: 40px;
+    cursor: pointer;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-left: 100px
+    }
+    .button5{
+    margin: 20px 10px;
+    height: 80px;
+    left: 45%;
+    position: absolute;
+    height: auto;
+    margin-top: 320px;
+    padding: 5PX 30PX;
+    max-width: 80%;
+    background-color: #3d2499;
+    color: white;
+    transform: translate(-50%, -50%); 
+    font-size: 40px;
+    cursor: pointer;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-left: 100px
+    }
+    .button6{
+    margin: 20px 10px;
+    height: 80px;
+    left: 55%;
+    position: absolute;
+    height: auto;
+    margin-top: 320px;
+    padding: 5PX 30PX;
+    max-width: 80%;
+    background-color: #3d2499;
+    color: white;
+    transform: translate(-50%, -50%); 
+    font-size: 40px;
+    cursor: pointer;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-left: 100px
+    }
+    .button7{
+    margin: 20px 10px;
+    height: 80px;
+    left: 66%;
+    position: absolute;
+    height: auto;
+    margin-top: 320px;
+    padding: 5PX 30PX;
+    max-width: 80%;
+    background-color: #3d2499;
+    color: white;
+    transform: translate(-50%, -50%); 
+    font-size: 40px;
+    cursor: pointer;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-left: 100px
+    }
+    .button8{
+    margin: 20px 10px;
+    height: 80px;
+    left: 76%;
+    position: absolute;
+    height: auto;
+    margin-top: 320px;
+    padding: 5PX 30PX;
+    max-width: 80%;
+    background-color: #3d2499;
+    color: white;
+    transform: translate(-50%, -50%); 
+    font-size: 40px;
+    cursor: pointer;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-left: 100px
+    }
+    .button9{
+    margin: 20px 10px;
+    height: 80px;
+    left: 86%;
+    position: absolute;
+    height: auto;
+    margin-top: 320px;
+    padding: 5PX 30PX;
+    max-width: 80%;
+    background-color: #3d2499;
+    color: white;
+    transform: translate(-50%, -50%); 
+    font-size: 40px;
+    cursor: pointer;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-left: 100px
+    }
+    .button10{
+    margin: 20px 10px;
+    height: 80px;
+    left: 1%;
+    position: absolute;
+    height: auto;
+    margin-top: 670px;
+    padding: 5PX 30PX;
+    max-width: 80%;
+    background-color: #3d2499;
+    color: white;
+    transform: translate(-50%, -50%); 
+    font-size: 40px;
+    cursor: pointer;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-left: 100px   
+    }
+    .button11{
+    margin: 20px 10px;
+    height: 80px;
+    left: 12%;
+    position: absolute;
+    height: auto;
+    margin-top: 670px;
+    padding: 5PX 30PX;
+    max-width: 80%;
+    background-color: #3d2499;
+    color: white;
+    transform: translate(-50%, -50%); 
+    font-size: 40px;
+    cursor: pointer;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-left: 100px      
+    }
+    .button12{
+    margin: 20px 10px;
+    height: 80px;
+    left: 22%;
+    position: absolute;
+    height: auto;
+    margin-top: 670px;
+    padding: 5PX 30PX;
+    max-width: 80%;
+    background-color: #3d2499;
+    color: white;
+    transform: translate(-50%, -50%); 
+    font-size: 40px;
+    cursor: pointer;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-left: 100px      
+    }
+    .button13{
+    margin: 20px 10px;
+    height: 80px;
+    left: 35%;
+    position: absolute;
+    height: auto;
+    margin-top: 670px;
+    padding: 5PX 30PX;
+    max-width: 80%;
+    background-color: #3d2499;
+    color: white;
+    transform: translate(-50%, -50%); 
+    font-size: 40px;
+    cursor: pointer;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-left: 100px         
+    }
+    .button14{
+    margin: 20px 10px;
+    height: 80px;
+    left: 45%;
+    position: absolute;
+    height: auto;
+    margin-top: 670px;
+    padding: 5PX 30PX;
+    max-width: 80%;
+    background-color: #3d2499;
+    color: white;
+    transform: translate(-50%, -50%); 
+    font-size: 40px;
+    cursor: pointer;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-left: 100px         
+    }
+    .button15{
+    margin: 20px 10px;
+    height: 80px;
+    left: 55%;
+    position: absolute;
+    height: auto;
+    margin-top: 670px;
+    padding: 5PX 30PX;
+    max-width: 80%;
+    background-color: #3d2499;
+    color: white;
+    transform: translate(-50%, -50%); 
+    font-size: 40px;
+    cursor: pointer;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-left: 100px         
+    }
+    .button16{
+    margin: 20px 10px;
+    height: 80px;
+    left: 66%;
+    position: absolute;
+    height: auto;
+    margin-top: 670px;
+    padding: 5PX 30PX;
+    max-width: 80%;
+    background-color: #3d2499;
+    color: white;
+    transform: translate(-50%, -50%); 
+    font-size: 40px;
+    cursor: pointer;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-left: 100px         
+    }
+    .button17{
+    margin: 20px 10px;
+    height: 80px;
+    left: 76%;
+    position: absolute;
+    height: auto;
+    margin-top: 670px;
+    padding: 5PX 30PX;
+    max-width: 80%;
+    background-color: #3d2499;
+    color: white;
+    transform: translate(-50%, -50%); 
+    font-size: 40px;
+    cursor: pointer;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-left: 100px         
+    }
+    .button18{
+    margin: 20px 10px;
+    height: 80px;
+    left: 86%;
+    position: absolute;
+    height: auto;
+    margin-top: 670px;
+    padding: 5PX 30PX;
+    max-width: 80%;
+    background-color: #3d2499;
+    transition: background-color 0.7 ease;
+    color: white;
+    transform: translate(-50%, -50%); 
+    font-size: 40px;
+    cursor: pointer;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-left: 100px         
+    }

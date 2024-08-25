@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+body {
+    background-image: url("Pagina 03/sports-4k-gvtzqupmmoimnxkl.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+  }
+  .img-logo {
+    position: absolute; 
+    left: 2%;
+    width: 300px; 
+    height: auto; 
+    margin-bottom: 50px; 
+    cursor: pointer;
+    z-index: 2; 
+}
+.img-logo:hover {
+  transform: scale(1.1); 
+}
+  main{
+    position: absolute;
+    width: 450px;
+    height: 550px;
+    background: transparent;
+    border: 2px solid rgb(red, green, blue);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgb(0,0,0,5);
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-left: 10%;
+    z-index: 1;
+  }
+  .img-class{
+    height: 120px;
+    width: 120px;
+    cursor: pointer;
+    margin-top: 30%;
+    z-index: 2;
+    position:absolute
+  }
+
+.insta:hover,.face:hover,.link:hover {
+    transform: scale(1.2);
+}
+P{
+  margin-top: 15%;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 28px;
+  color:rgb(49, 95, 247) 
+}
